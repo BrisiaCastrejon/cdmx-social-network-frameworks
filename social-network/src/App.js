@@ -2,7 +2,7 @@ import React, { Component } from 'react'; // Importa React: Component
 // import logo from './logo.svg'; // Evita rutas relativas/estaticas
 import firebase from 'firebase';
 import './App.css'; // css del componente App
-
+// functional component // rev
 class App extends Component {
   loginGoogle () {
     const provider = new firebase.auth.GoogleAuthProvider();
@@ -22,13 +22,13 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2 className="App-title">Red Social</h2>         
+          <h2 className="App-title">Mi sazon</h2>        
         </header>
         <p>
-          <button onClick={this.loginGoogle}>Google</button>
+          <button className="boton" onClick={this.loginGoogle}>Google</button>
         </p>
         <p>
-          <button onClick={this.loginFacebook}>Facebook</button>
+          <button className="boton" onClick={this.loginFacebook}>Facebook</button>
         </p>        
       </div>
     );
