@@ -8,9 +8,24 @@ body {
   /*top-right -bottom-left*/
   margin: 60px auto auto auto;
 }
-
+.user{
+  margin: 200px auto auto auto;
+  width: 200px;
+  text-align: center;
+  display: block;
+  float: left;
+  color: floralwhite;
+}
 .user-image {
   width: 100px;
+}
+.button-logout {
+  background-color: rgba(255, 128, 0, 0.753);
+  border-color: rgba(255, 128, 0, 0.753);
+}
+.button-logout:hover {
+  background-color:black;
+  border-color: rgba(255, 128, 0, 0.753);
 }
 
 @media (min-width: 700px) {

@@ -39,30 +39,32 @@ class App extends Component {
   handleUserAuth () {
     if (this.state.user) {
       return (
-        <div >
+        <div className='user'>
           <img className='user-image'  src={this.state.user.photoURL} alt={this.state.user.displayName} />
           <p>{this.state.user.displayName}</p>
-          <button className="btn btn-danger btn-block form-button buttons-login" onClick={this.handleLogout}>Cerrar sesión</button> 
+          <button className="btn btn-danger btn-block form-button button-logout" onClick={this.handleLogout}>Cerrar sesión</button> 
         </div>
       );
     } else {
       return (
-      <button className="btn btn-danger btn-block form-button buttons-login" onClick={this.handleLoginGoogle}>Google</button> 
+        <section className="row justify-content-center fondo-container">
+          <div>
+        <img className="logo-img" src={logo} alt='' />
+          </div>
+          <section className="form-group col-md-6 buttons-login">
+          <button className="btn btn-danger btn-block buttons-login" onClick={this.handleLoginGoogle}>Google</button>     
+          </section>
+          <Footer copyright='&copy; Brisia Castrejon-2018-Laboratoria'  />  
+        </section>        
       )
     };
   };
   render() {
     return (
-      <div className="container centrado-container">
-        <section className="row justify-content-center fondo-container">
-        <div>
-        <img className="logo-img" src={logo} alt='' />
-        </div>
-        <section className="form-group col-md-6 buttons-login">
-          {this.handleUserAuth()}     
+      <div className="container centrado-container">  
+       <section>      
+          {this.handleUserAuth()}
           </section>        
-        </section>
-        <Footer copyright='&copy; Brisia Castrejon-2018-Laboratoria'  /> 
       </div>
     );
   }
