@@ -1,0 +1,28 @@
+.central {
+  width: 1000px;
+  margin: auto auto auto 150px;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.caja-receta{
+  width: 500px;
+}
+.posts{
+  list-style: none;
+  display: block;
+}
+.button-Edit {
+  background-color: rgb(243, 211, 29);
+  color: black;
+}
+.button-Remove {
+ background-color: rgb(236, 180, 24);
+ color: black;
+}
+.button-Submit {
+  background-color: rgb(219, 96, 14);
+  color: aliceblue;
+}
+.recetas {
+display: block;
+background-color:rgba(219, 96, 14, 0.575);
+}
