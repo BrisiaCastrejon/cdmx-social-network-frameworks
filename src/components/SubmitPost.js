@@ -67,7 +67,7 @@ class SubmitPost extends Component {
           <h2>{this.state.title}</h2> 
           <form ref='cardPubication' className=''>
             <textarea type='text' ref='name' placeholder='Que tienes HOY en tu refri' className='caja-receta' />    
-              <button onClick={(e)=>this.handleSubmitPost(e)} className='btn button-Submit'>submit</button>
+              <button onClick={(e)=>this.handleSubmitPost(e)} className='btn button-Submit'>Publicar</button>
           </form>
           </div>
            <div className='recetas col'>
@@ -75,8 +75,8 @@ class SubmitPost extends Component {
                 datas.map((data, i) =>
                 <div key={i} className='posts' >
                 {i+1}. {data.name}
-                <button onClick={()=>this.handleRemovePost(i)} className='btn button-Remove' >remove</button>
-                <button onClick={()=>this.handleEditPost(i)} className='btn button-Edit'>Edit</button>          
+                <button onClick={()=>this.handleRemovePost(i)} className='btn button-Remove' >Eliminar</button>
+                <button onClick={()=>this.handleEditPost(i)} className='btn button-Edit'>Editar</button>          
                 </div>)
               }
           </div>          
