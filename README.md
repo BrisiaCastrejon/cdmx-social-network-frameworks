@@ -107,19 +107,19 @@ algunas aplicaciones son:
 
 * Nestlè Cocina:
 
-![Nestle](./src/images/nestle.jpg)
+![Nestle](./src/assets/img/nestle.jpg)
 
 Un manual de cocina en formato app para iOS y Android. Para acceder a cada plato es posible utilizar un buscador y después afinar los resultados con distintos filtros o bien emplear los submenús disponibles, como Recetas vegetarianas, Recetas sin gluten, Tipo de alimento, Recetas familiares u Ocasiones especiales, entre otros. Una vez que seleccionamos la receta, en su ficha encontramos textos con información nutricional por ración (hidratos, grasas, proteínas…), los ingredientes,las indicaciones para la preparación y consejos adicionales. Pero, además, la mayoría de ellas lleva asociado el enlace a un vídeo del canal de YouTube de Nestlé Cocina para seguir el paso a paso de la elaboración. Para los que no tienen claro qué cocinar, esta aplicación ofrece dos funciones: La primera de ellas es “Mi nevera”, un submenú en el que el usuario introduce ingredientes y a cambio obtiene sugerencias de los platos que puede elaborar con ellos. Y, por otro lado, con la opción “Cena Planner”, la app recomienda una cena complementaria a la comida que se ha hecho ese mismo día. Uno de sus puntos a favor, sobre todo para los más recelosos de su intimidad, es que puede utilizarse sin registro, aunque también se ofrece la creación de un “usuario único” que da acceso a todas las webs de Nestlé y con el que se puede participar en sorteos y promociones, para lo cual hay que proporcionar NIF, fecha de nacimiento y un correo electrónico. De igual modo, este registro es necesario para marcar como favoritas las recetas de la app con el fin de guardarlas y que el usuario pueda crear sus propias listas.
 
 * PetitChef:
 
-![Peti chef](./src/images/petichef.png)
+![Peti chef](./src/assets/img/petichef.png)
 
 Engloba más de 20.000 recetas que pueden filtrarse por tres tipos distintos: Entrante, Plato principal y Postre. Pero para aquellos que no quieran darle muchas vueltas a la cabeza, nada más entrar en la app se ofrece el menú del día, configurado por una propuesta de cada una de esas categorías. Si esa sugerencia no es suficiente, es posible ir hacia atrás y consultar los menús de días anteriores. Una vez seleccionada una receta concreta, al acceder a su ficha encontramos información con los ingredientes y el paso a paso de su preparación. Todo ello a través de explicaciones muy sencillas que, en ocasiones, se acompañan de fotos detalladas y vídeos, así como de opiniones aportadas por los usuarios, lo cual otorga una capa social a PetitChef. Sin embargo, uno de sus puntos negativos es que muestra demasiada publicidad mientras se navega por sus distintas funciones. Al igual que la anterior, PetitChef puede utilizarse sin necesidad de registro, aunque si el usuario quiere guardar recetas para crear su lista de favoritos debe crearse una cuenta y proporcionar un correo electrónico. Está disponible para dispositivos iOS y Android.
 
 * Cookpad:
 
-![Cookpad](./src/images/cookpad.jpg)
+![Cookpad](./src/assets/img/cookpad.jpg)
 
 Plataforma en la que los propios usuarios los que suben las fotos de los platos que han elaborado, sus ingredientes y los pasos para su elaboración. Funciona como cualquier red social, de tal modo que en primer lugar es necesario formalizar un registro (a través de Facebook, Google+ o un correo electrónico) y a partir de ahí comienza a configurarse el muro donde queda reflejada la actividad del usuario y la de aquellos a los que sigue. Según sus responsables, se han publicado ya cerca de 200.000 recetas y en cada una de ellas se plantean dudas o se aportan consejos a aquellos que las han compartido, pero además es posible establecer conversaciones privadas dentro de la app gracias a un chat que funciona como cualquier aplicación de mensajería instantánea. Cuenta con versiones gratuitas para iOS y Android, pero también con una edición Premium para ambos sistemas operativos por 2,99 euros mensuales que entre otras ventajas facilita la búsqueda de un plato concreto a través de la reorganización de los resultados y permite descargar recetas para consultarlas posteriormente sin conexión a Internet.
 
@@ -127,9 +127,9 @@ Plataforma en la que los propios usuarios los que suben las fotos de los platos 
 
 Presentamos los resultados de los benchmark realizados:
 
-![Benchamark1](./src/images/benchmark1.png)
+![Benchamark1](./src/assets/img/benchmark1.png)
 
-![Benchamark2](./src/images/benchmark2.png)
+![Benchamark2](./src/assets/img/benchmark2.png)
 
 ### Research 1:
 
@@ -156,69 +156,69 @@ De los resultados obtenidos hasta el momento podríamos decir que:
 
 ### Resultados de encuesta:
 
-![Resultado 1](./src/images/result1.png)
+![Resultado 1](./src/assets/img/result1.png)
 
-![Resultado 2](./src/images/result2.png)
+![Resultado 2](./src/assets/img/result2.png)
 
-![Resultado 3](./src/images/result3.png)
+![Resultado 3](./src/assets/img/result3.png)
 
 Una vez que se definieron las nececidades de nuestro producto comenzamos con un User Flow, para ayudarnos  a comprender el comportamiento  y asi poder materializar frente al cliente las interacciones de los usuarios con sus productos, llegando asi al funcionamiento del producto solicitado, como se muestra a continuación:
 
-![User Flow](./src/images/userflowMiSazon.png)
+![User Flow](./src/assets/img/userflowMiSazon.png)
 
 
 * Como siguiente paso se realizo un sketch a lapiz y papel donde se plasma a grandes rasgos la interfaz con los elementos que ayudaran con la interacción de la misma, el cuál se mostro a nuestro cliente para su aprovación.
 
-![Sketch Login Básico](./src/images/sketchloginbasico.jpeg)
+![Sketch Login Básico](./src/assets/img/sketchloginbasico.jpeg)
 
 * Una vez hechos los cambios pertinentes se paso a diseñar la interfaz con ayuda de una herramienta de diseño visual (Figma), como se puede apreciar a continuación:
 
-![Image Login Básico](./src/images/loginbasico.png)
+![Image Login Básico](./src/assets/img/loginbasico.png)
 
 
 * Luego de testear nuestro login, los usuarios nos comentaron que nuestro logo no era agradable a la vista, por este motivo se procedió a modificar el logo a lapiz y papel, viendose de esta manera:
 
-![Sketch1](./src/images/sketch1.jpg)
+![Sketch1](./src/assets/img/sketch1.jpg)
 
 
 * Luego, se paso a diseñar la interfaz con ayuda de una herramienta de diseño visual Figma, como se puede apreciar a continuación:
 
- ![Image Login 1](./src/images/login1.png)
+ ![Image Login 1](./src/assets/img/login1.png)
 
 
 * El cliente pide que no solo pueda registrarse con usuario y contraseña, sino que también se pueda autenticar con Facebook o Google, por ende se elaboró como se vería el login con dichos requerimientos; primero a lapiz y papel:
 
-![Sketch Login 2](./src/images/sketchlogin2.jpg)
+![Sketch Login 2](./src/assets/img/sketchlogin2.jpg)
 
 
 
-![Sketch Login 3](./src/images/sketchlogin3.jpg)
+![Sketch Login 3](./src/assets/img/sketchlogin3.jpg)
 
 
 * Luego, se paso a diseñar la interfaz con ayuda de una herramienta de diseño visual Figma, como se puede apreciar a continuación:
 
- ![Image Login 2](./src/images/login2.png)
+ ![Image Login 2](./src/assets/img/login2.png)
 
 
- ![Image Login 3](./src/images/login3.png)
+ ![Image Login 3](./src/assets/img/login3.png)
 
 El sketch a lapiz y papel, se realizó pensando en mobile-first, se implemento un menú hamburguesa del lado superior derecho con su respectivo logo, al darle “click” en el menú se desplegará una lista donde se podrá apreciar el perfil de usuario con una foto del mismo y un opción que nos permita cerrar la sesión (log out) al volver a darle “click” al menú de hamburguesa, este se ocultará dandole paso a la primera pantalla de nuestro muro se podra observar una caja que te pregunta de manera muy explicita ¿Qué tienes en tu refri? , donde se podrá públicar lo que desees saber acerca de recetas de cocina. Luego se verán publicaciones de aquellas personas a las que agregaste a tu red social la cual va a contener posting de recetas, o sugerencias de las mismas. Se podrá editar, compartir y hasta darle like (con un corazón) al post que sea de su agrado. Luego de observar como se vería nuestra interfaz en lapiz y papel , y plasmando todos los requerimientos que se necesitaban se procedió a realizar a color  las interfaces con ayuda de Figma. Se buscó que nuestra interfaz  fuera los mas amigable posible , fácil de usar pero sobre todo fácil de entender para el usuario.
 
 * A continuación se mostrarán los sketches a lapiz y papel:
 
- ![Sketch Muro 1](./src/images/sketchmuro1.jpg)
+ ![Sketch Muro 1](./src/assets/img/sketchmuro1.jpg)
 
 
 
- ![Sketch Muro 2](./src/images/sketchmuro2.jpg)
+ ![Sketch Muro 2](./src/assets/img/sketchmuro2.jpg)
 
 
 * Finalinzando con la utilización de la herramienta (Figma):
 
-![Image Muro 1](./src/images/mobilefirstscreen.png)
+![Image Muro 1](./src/assets/img/mobilefirstscreen.png)
 
 
-![Image Muro 2](./src/images/mobilesecondscreen.png)
+![Image Muro 2](./src/assets/img/mobilesecondscreen.png)
 
 ### Research 2:
 
@@ -232,27 +232,27 @@ El sketch a lapiz y papel, se realizó pensando en mobile-first, se implemento u
 
  Los usuarios utilizan con mayor frecuencia Instagram como red social predominante.
 
- ![Gráfica 1](./src/images/grafica1.png)
+ ![Gráfica 1](./src/assets/img/grafica1.png)
 
 
  Las públicaciones que mas buscan los usuarios se encuantran en Instagram, según la encuesta.
 
- ![Gráfica 2](./src/images/grafica2.png)
+ ![Gráfica 2](./src/assets/img/grafica2.png)
 
 
  Publican mas en Instagram que en Facebook, Pinterest, Twitter y Whatsapp.
 
- ![Gráfica 3](./src/images/grafica3.png)
+ ![Gráfica 3](./src/assets/img/grafica3.png)
 
 
   Coinciden en que en Instagram se encuantran más rápido los resultados de búsquedas.
 
- ![Gráfica 4](./src/images/grafica4.png)
+ ![Gráfica 4](./src/assets/img/grafica4.png)
 
 
  Coinciden en que el uso que los usuarios encuestados le dan a las redes sociales es mas que todo interacción con amigos y familiares sobre temas diversos.
 
-![Gráfica 5](./src/images/grafica5.png)
+![Gráfica 5](./src/assets/img/grafica5.png)
 
 
 ### Tests
@@ -283,7 +283,7 @@ La interfaz debe permitir lo siguiente:
   - Al recargar la aplicación, se debe verificar si el usuario está
     logueado antes de mostrarle el contenido privado.
 * Perspectiva de interfaz:
-  ![Login](https://user-images.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
+  ![Login](https://user-img.githubusercontent.com/9284690/40994765-c3cf9602-68c2-11e8-89ac-8254859b5ebb.png)
 
 #### Muro/timeline de la red social
 
@@ -311,7 +311,7 @@ La interfaz debe permitir lo siguiente:
   - Debe poder publicar públicamente, visible para todos los usuarios de la red social.
   - Debe poder enviar mensajes privados a mis amigos.
 * Perspectiva de interfaz:
-  ![Muro](https://user-images.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
+  ![Muro](https://user-img.githubusercontent.com/9284690/40994768-c52c3442-68c2-11e8-99a5-9e127e700dee.png)
 
 #### Otras consideraciones
 
