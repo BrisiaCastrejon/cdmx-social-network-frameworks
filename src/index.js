@@ -2,7 +2,7 @@ import React from 'react'; // react
 import ReactDOM from 'react-dom'; // renderizar 
 import firebase from 'firebase';
 import './index.css'; // estilos
-import App from './App'; // el archivo a renderizar
+import App from './components/App'; // el archivo a renderizar
 import registerServiceWorker from './registerServiceWorker'; // ayuda a almacenar archivos en cache para que el usuario no tenga incovenientes con falta de red o red lenta.Mejora la experiencia de Usuario. Lo despliega por defecto CREATE-REACT-APP
 firebase.initializeApp({
   apiKey: "AIzaSyAJG5TpGZkxr976aECcA6V9v1nDMbgn_Bo",
